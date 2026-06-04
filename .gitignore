@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+mediapipe_venv/
+word/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Generated datasets and outputs
+data/**/*.csv
+data/**/*.json
+outputs/*
+!outputs/README.md
+!data/README.md
+
+# Large or external model files
+*.task
+*.tflite
+
+# Generated figures and result tables
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
