@@ -1,5 +1,7 @@
 # optical_calculate
 
+中文 | [English](README.en.md)
+
 用于光学超振荡透镜研究的 Python 脚本集，包含随机环带半径数据生成、衍射积分计算、光学参数评估、随机仿真以及 GA/NSGA-II 优化实验。
 
 ## 项目背景与目标
